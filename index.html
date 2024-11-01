@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   height: 82px;
+   margin: 0px 0px 60px 0px;
+}
+
+nav ul{
+    list-style: none;
+  }
+li {
+
+    display: inline-block;
+    font-size: 30px; 
+    padding: 15px;  
+    font-size: 25px;
+  
+}
+li a {
+   color: black;
+   text-decoration: none;
+}
+.but22{
+    background-color: rgb(88, 88, 232);
+    color: aliceblue;
+   
+}
+
+.main {
+  
+   margin-top: 5px;
+   padding: 70px ;
+   display: flex;
+   font-size: 30px;
+  
+ 
+  
+}
+.lab1{
+    font-size: 16px;
+    color: rgb(80, 80, 80);
+}
+.lab2{
+    text-align: center;
+}
+.img1{
+    margin: 0px 0px 0px 35%;
+}
+
+
+.cards{
+    display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(1 , 1fr);
+            gap: 20px;
+}
+.card{
+    
+       
+         
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+}
+
+
+.main111{
+  
+  margin-top: 5px;
+  padding: 50px ;
+  display: flex;
+  font-size: 30px;
+ gap: 30px;
+
+ 
+}
+.lab111{
+   font-size: 16px;
+   color: rgb(80, 80, 80);
+}
+
+.img111{
+   margin: 0px  30% 0px 0px;
+}
+
+@media (max-width: 1200px) {
+    .main, .main111 {
+        padding: 40px;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .img1, .img111 {
+        margin: 30px auto;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    nav ul {
+        padding: 0;
+        margin: 20px 0;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    li {
+        display: block;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .main, .main111 {
+        font-size: 24px;
+        padding: 20px;
+    }
+
+    .card {
+        margin: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .but {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    li {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .main, .main111 {
+        font-size: 20px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+         <img src="Group 1.svg" alt="">
+        </div>
+        <ul class="ul">
+          <li class="k"><a href="">send money</a></li>
+          <li class="k"><a href="">receive money</a></li>
+          <li class="k"><a href="">language</a></li>
+          <li class="k"><a href="">How it works</a></li>
+        </ul>
+        <div class="but">
+        <button class="but11"> sing in  </button>
+        <button class="but22"> registe </button>
+    </div>
+      </nav>
+      
+     
+        <div class="main">
+            <div>
+            <h3> sending money is <br>easier than before</h3>
+            <p class="lab1">
+                ________
+            </p>
+         <p class="lab1">Lorem ipsum dolor sit amet consectetur adipisicing elit <br>. Voluptatem  quai nesciunt magni ad deleniti, aut quisquam <br> omnis voluptate facilis eius quo p!</p>
+           </p>
+          <button>Register</button>
+         <button class="but22">Learn more</button>
+          </div>
+            <img class="img1"  src= "undraw_Mobile_application_mr4r 1.png" alt="eee" />
+    </div>
+  <br><br>
+   <div class="lab2">
+        <h1>How it Works </h1>
+        <p class="lab1">___</p>
+        <p class="lab1">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit  Donec porttitor consectetur adipiscing elit. Donec porttitor 
+        </p>
+  </div>
+<br><br>
+
+
+
+<div class="cards">
+
+
+    <div class="card">
+        <div class="image-link">
+                <img src="Ellipse 1.png" alt="De">
+        </div>
+        <div class="txt">
+            <h3>In-app transer</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Donec p</p>
+     </div>
+      </div>
+
+     <div class="card">
+        <div class="image-link">
+                <img src="Ellipse 2.png" alt="De">
+        </div>
+        <div class="txt">
+            <h3>In-app transerL</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Donec p</p>
+      </div>
+      </div>
+
+
+
+      <div class="card">
+        <div class="image-link">
+                <img src="Ellipse 3.png" alt="De">
+        </div>
+        <div class="txt">
+            <h3>In-app transer</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Donec p</p> 
+       </div>
+      </div>
+
+
+
+    </div>
+
+        <div class="main111">
+           <img class="img111"  src= "undraw_sign_in_e6hj 1.png" alt="eee" />
+        <div>
+        <h2>Real-time Currency balance check</h2>
+    
+            <p class="lab111">Lorem ipsum dolor sit amet consectetur adipisicing elit <br>. Voluptatem  quai nesciunt magni ad deleniti, aut quisquam <br> omnis voluptate facilis eius quo p!</p>
+       
+      </div>
+    
+
+
+
+      
+   
+</body>
+</html>
